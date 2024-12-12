@@ -1,0 +1,102 @@
+.authorization__menu {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  height: 600px;
+  border-radius: 60px;
+  background: linear-gradient(to right, #d9d9d94d, #7373734d);
+  border: 2px solid #d9d9d94d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Центрируем меню на странице */
+}
+
+.navbar_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_part1 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo_part2 {
+  font-size: 30px;
+  color: #4ce0e8;
+  margin-left: 5px;
+}
+
+.authorization__title {
+  margin-top: 15px;
+  font-size: 30px;
+  text-align: center; 
+}
+
+.authorization__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px; /* Добавляем отступ сверху */
+}
+
+.authorization__input {
+  width: 325px;
+  height: 60px;
+  background-color: inherit;
+  border: 1px solid #2cdfe6;
+  border-radius: 50px;
+  padding: 15px;
+  margin-top: 20px; /* Уменьшаем отступ между полями ввода */
+  color: white;
+}
+
+.authorization_button {
+  background-color: #2cdfe6;
+  border-radius: 54px;
+  color: black;
+  border: none;
+  width: 190px;
+  height: 55px;
+  font-size: 20px;
+  margin-top: 30px; /* Добавляем отступ между кнопкой и полем ввода */
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #20a7ac;
+    transform: scale(1.04);
+  }
+}
+
+.authorization__text_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.authorization__link_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.authorization__footer {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.authorization__link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.736);
+  font-size: 15px;
+  margin-left: 10px;
+}

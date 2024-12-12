@@ -1,0 +1,19 @@
+.projectDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 475px;
+  line-height: 24px;
+  flex-direction: column;
+}
+
+.projectDescriptionMain {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.projectDescriptionP {
+  color: #ffffff;
+}

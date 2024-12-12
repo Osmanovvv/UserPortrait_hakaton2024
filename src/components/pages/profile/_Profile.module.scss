@@ -1,0 +1,118 @@
+.profile {
+  width: 1440px;
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &_logo {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffffff;
+      position: absolute;
+      top: 50px;
+      left: 100px;
+
+      .logo-part1 {
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: bold;
+      }
+
+      .logo-part2 {
+          font-size: 30px;
+          color: #4ce0e8; 
+          margin-left: 5px;
+      }
+  }
+
+  &_menu {
+      width: 980px;
+      height: 560px;
+      background: linear-gradient(to right, #D9D9D94D, #7373734D);
+      border-radius: 60px;
+      border: 2px solid #D9D9D94D;
+      padding: 50px;
+
+      &_upper {
+          display: flex;
+          margin-bottom: 65px;
+
+          &_avatar {
+              width: 230px;
+              height: 230px;
+              border-radius: 150px;
+              margin-right: 25px;
+          }
+
+          &_info {
+              &_h {
+                  margin-top: 25px;
+                  font-size: 40px;
+                  color: white;
+                  margin-bottom: 15px;
+              }
+
+              .into_p {
+                  color: aqua;
+              }
+
+              &_p {
+                  color: white;
+                  margin-bottom: 10px;
+                  display: flex;
+                  gap: 5px;
+              }
+          }
+      }
+
+      &_lower {
+          display: flex;
+
+          &_buttons_left {
+              &_btn {
+                  width: 275px;
+                  height: 150px;
+                  border-radius: 60px;
+                  background: linear-gradient(to right, #D9D9D94D, #7373734D);
+                  border-radius: 55px;
+                  border: 2px solid #D9D9D94D;
+                  color: white;
+                  font-size: 28px;
+                  margin-right: 25px;
+                  transition: 0.3s;
+
+                  &:hover {
+                      background-color: aqua;
+                      color: black;
+                  }
+              }
+          }
+
+          &_buttons_right {
+              display: flex;
+              flex-direction: column;
+
+              &_btn {
+                  width: 185px;
+                  height: 60px;
+                  background: linear-gradient(to right, #D9D9D94D, #7373734D);
+                  border-radius: 60px;
+                  border: 2px solid #D9D9D94D;
+                  margin-bottom: 30px;
+                  color: white;
+                  font-size: 20px;
+                  transition: 0.3s;
+
+                  &:hover {
+                      background-color: aqua;
+                      color: black;
+                  }
+              }
+          }
+      }
+  }
+}

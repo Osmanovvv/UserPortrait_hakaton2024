@@ -1,0 +1,191 @@
+$primary-bg: linear-gradient(to right, #D9D9D94D, #7373734D);
+$hover-bg: #2CDFE6;
+$hover-bg-dark: #38a4aa;
+$border-color: #D9D9D94D;
+
+.group_block {
+  width: 990;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+
+  .upper_group_block {
+    display: flex;
+    margin-bottom: 40px;
+
+    .left_upper_block,
+    .right_upper_block {
+      width: 470px;
+      height: 650px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: $primary-bg;
+      border-radius: 60px;
+      border: 2px solid $border-color;
+      padding: 25px;
+
+      &.left_upper_block {
+        margin-right: 50px;
+
+        .left_upper_block_text {
+          font-size: 36px;
+          color: white;
+          margin-bottom: 45px;
+        }
+
+        .left_upper_block_ul_item {
+          width: 370px;
+          height: 60px;
+          border: 2px solid $border-color;
+          border-radius: 70px;
+          display: flex;
+          align-items: center;
+          padding: 20px;
+          gap: 50%;
+          color: white;
+          background: $primary-bg;
+          margin-bottom: 45px;
+          transition: .3s;
+          cursor: pointer;
+
+          &:last-child {
+            margin-bottom: 65px;
+          }
+
+          &:hover {
+            background-color: $hover-bg;
+            color: black;
+          }
+        }
+
+        .left_upper_block_button {
+          width: 180px;
+          height: 60px;
+          background-color: $hover-bg;
+          border-radius: 50px;
+          border: none;
+          font-size: 20px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: .3s;
+
+          &:hover {
+            background-color: $hover-bg-dark;
+          }
+        }
+      }
+
+      &.right_upper_block {
+        .right_upper_block_text {
+          font-size: 36px;
+          color: white;
+          margin-bottom: 40px;
+        }
+
+        .right_upper_block_ul {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 40px;
+          max-width: 600px;
+          margin: 0 auto;
+          margin-bottom: 94px;
+
+          .right_upper_block_ul_item {
+            width: 180px;
+            height: 155px;
+            border-radius: 40px;
+            border: 2px solid $border-color;
+            background: $primary-bg;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: .3s;
+
+            &:hover {
+              background-color: $hover-bg;
+            }
+
+            .right_upper_block_ul_item_upper_text {
+              display: flex;
+              color: white;
+
+              &.right_upper_block_ul_item_upper_text_left {
+                font-size: 12px;
+                text-align: left;
+                color: white;
+              }
+
+              &.right_upper_block_ul_item_upper_text_right {
+                font-size: 58px;
+                margin-bottom: 20px;
+                color: white;
+              }
+            }
+
+            .right_upper_block_ul_item_lower_text {
+              display: flex;
+              justify-content: space-between;
+
+              .right_upper_block_ul_item_lower_text_positive {
+                color: rgba(0, 128, 0, 0.5);
+              }
+
+              .right_upper_block_ul_item_lower_text_negative {
+                color: rgba(255, 0, 0, 0.5);
+              }
+            }
+          }
+        }
+
+        .right_upper_block_button {
+          width: 180px;
+          height: 60px;
+          background-color: $hover-bg;
+          border-radius: 50px;
+          border: none;
+          font-size: 20px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: .3s;
+
+          &:hover {
+            background-color: $hover-bg-dark;
+          }
+        }
+      }
+    }
+  }
+
+  .lower_group_block_reviews {
+    display: flex;
+    gap: 28px;
+
+    .lower_group_block_reviews_item {
+      padding: 20px;
+      width: 310px;
+      height: 270px;
+      border-radius: 60px;
+      border: 2px solid $border-color;
+      background: $primary-bg;
+      font-size: 15px;
+      color: white;
+      transition: .3s;
+
+      &:hover {
+        background-color: $hover-bg;
+      }
+
+      .lower_group_block_reviews_item_h4 {
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .lower_group_block_reviews_item_p {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

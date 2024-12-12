@@ -1,0 +1,58 @@
+.user_menu {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 420px;
+  border-radius: 60px;
+  background: linear-gradient(to right, #d9d9d94d, #7373734d);
+  border: 2px solid #d9d9d94d;
+
+  .navbar_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo_part1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .logo_part2 {
+    font-size: 30px;
+    color: #4ce0e8;
+    margin-left: 5px;
+  }
+
+  .user_menu_input {
+    width: 325px;
+    height: 60px;
+    background-color: inherit;
+    border: 1px solid #2cdfe6;
+    border-radius: 50px;
+    margin-top: 80px;
+    padding: 15px;
+  }
+
+  .user_menu_button {
+    background-color: #2cdfe6;
+    border-radius: 54px;
+    color: black;
+    border: none;
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 55px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #20a7ac;
+      transform: scale(1.04);
+    }
+  }
+}
