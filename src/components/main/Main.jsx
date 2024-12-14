@@ -7,10 +7,16 @@ import GroupBlock from '../UI/GroupBlock/GroupBlock';
 export default function Main() {
   return (
     <>
-      <UserMenu />
-      <ProjectDescription />
-      <RadarChart />
-      <GroupBlock />
+      <div id="UserMenu">
+        <UserMenu />
+        <ProjectDescription />
+      </div>
+      <div id="RadarChart">
+        <RadarChart />
+      </div>
+      <div id="Groups">
+        <GroupBlock />
+      </div>
     </>
   );
 }

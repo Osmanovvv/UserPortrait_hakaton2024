@@ -1,0 +1,47 @@
+.settings_main {
+            width: 470px;
+            height: 630px;
+            border: 2px solid #D9D9D94D;
+            border-radius: 80px;
+            background: linear-gradient(to right, #D9D9D94D, #7373734D);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+}
+
+.settings_h {
+            font-size: 36px;
+            color: white;
+            margin-bottom: 35px;
+}
+
+.settings_input {
+            padding: 25px;
+            width: 370px;
+            height: 60px;
+            background: linear-gradient(to right, #D9D9D94D, #7373734D);
+            border-radius: 80px;
+            cursor: pointer;
+            margin-bottom: 35px;
+}
+
+.settings_button {
+            margin-top: 125px;
+            width: 180px;
+            height: 60px;
+            background-color: #2CDFE6;
+            border-radius: 50px;
+            border: none;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: .3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
+
+.settings_button:hover {
+            background-color: #38a4aa;
+}

@@ -1,16 +1,18 @@
 import React from 'react';
 import classes from './_authorization.module.scss';
 import { Link } from 'react-router-dom';
+import BackButton from '../../UI/backButton/backButton';
 
 const Authorization = () => {
   return (
     <div className={classes.container}>
+    <BackButton />
       <div className={classes.authorization__menu}>
         <div className={classes.authorization_container}>
-          <div className={classes.navbar_logo}>
+          <Link to="/" className={classes.navbar_logo}>
             <span className={classes.logo_part1}>DIGITAL</span>
             <span className={classes.logo_part2}>USER</span>
-          </div>
+          </Link>
         </div>
 
         <div className={classes.authorization_title_container}>

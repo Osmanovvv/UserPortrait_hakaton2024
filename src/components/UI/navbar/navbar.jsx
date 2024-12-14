@@ -12,12 +12,18 @@ const Navbar = () => {
             <span className={classes.logoPart2}>USER</span> 
           </div> 
           <ul className={classes.navbarLinks}>
-            <li><a href="#">Данные</a></li> 
-            <li><a href="#">Статистика</a></li> 
-            <li><a href="#">Группы</a></li> 
+            <li>
+              <a href="#UserMenu">Данные</a>
+            </li> 
+            <li>
+              <a href="#RadarChart">Статистика</a>
+            </li> 
+            <li>
+              <a href="#Groups">Группы</a>
+            </li> 
           </ul>
           <div className={classes.navbarBtnWrapper}> 
-            <Link to="/profile" className={classes.navbar__btn}>Профиль</Link>
+            <Link to="/Profile" className={classes.navbar__btn}>Профиль</Link>
             <Link to="/authorization" className={classes.navbar__btn}>Авторизация</Link>
           </div>
         </nav> 

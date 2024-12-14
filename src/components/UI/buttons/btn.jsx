@@ -2,7 +2,7 @@
 import React from 'react';
 import classes from './_btn.module.scss';
 
-const Btn = ({ children }) => { // Принимаем children как пропс
+const Btn = ({ children }) => {
   return (
     <button className={classes.btn}>
       {children}

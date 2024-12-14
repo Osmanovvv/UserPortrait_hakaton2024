@@ -1,10 +1,12 @@
 import React from 'react';
 import classes from './_recover.module.scss';
 import { Link } from 'react-router-dom';
+import BackButton from '../../UI/backButton/backButton';
 
 const Recover = () => { 
   return (
     <div className={classes.container}>
+    <BackButton />
       <div className={classes.authorization__menu}>
         <div className={classes.autorization_container}>
           <div className={classes.navbar_logo}>
