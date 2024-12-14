@@ -1,6 +1,6 @@
 // Footer.jsx
 import React from 'react';
-import classes from './_footer.module.scss'; // Импорт стилей
+import classes from './_Footer.module.scss';
 
 const Footer = ({ children }) => {
   return (
